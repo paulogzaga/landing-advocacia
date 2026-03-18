@@ -1,0 +1,142 @@
+========================================
+INSTRUÇÕES RÁPIDAS - LANDING PAGE ADVOCACIA
+========================================
+
+📌 PASSOS ESSENCIAIS PARA COMEÇAR:
+
+1. CONFIGURAR WHATSAPP
+   -----------------------
+   Abra o arquivo "index.html" e procure por:
+   https://wa.me/5511999999999
+
+   Substitua pelo seu número (formato: 55 + DDD + número)
+   Exemplo: https://wa.me/5521987654321
+
+   Repita para todos os links do WhatsApp (são vários no arquivo)
+
+   Depois, abra "script.js" e na linha 75 altere:
+   const whatsappNumber = '5511999999999';
+
+2. CONFIGURAR INSTAGRAM
+   -----------------------
+   No arquivo "index.html", procure por:
+   https://instagram.com/seu_escritorio
+
+   Substitua pelo seu perfil do Instagram
+   Exemplo: https://instagram.com/advocaciasilvaesilva
+
+3. ADICIONAR IMAGENS
+   -----------------------
+   Coloque estas imagens na pasta "images":
+
+   - hero-law.jpg (imagem principal do topo)
+     Tamanho recomendado: 1200x800 pixels
+     Pode ser uma imagem de balanças, livros de direito, etc.
+
+   - escritorio.jpg (foto do escritório ou equipe)
+     Tamanho recomendado: 1200x800 pixels
+
+4. PERSONALIZAR TEXTOS
+   -----------------------
+   No arquivo "index.html", altere:
+
+   - Nome do escritório (linha 21 e 23)
+   - Endereço (várias seções)
+   - Telefone fixo (se houver)
+   - E-mail de contato
+   - Textos da seção "Sobre"
+   - Depoimentos dos clientes
+
+5. CORES (OPCIONAL)
+   -----------------------
+   Para mudar as cores, edite o arquivo "style.css"
+   Procure por ":root" no início do arquivo
+
+   Cores atuais:
+   - Verde escuro: #1a4d2e (cor principal)
+   - Dourado: #d4af37 (cor secundária)
+
+========================================
+DICAS IMPORTANTES:
+========================================
+
+✓ Use imagens profissionais e de boa qualidade
+✓ Otimize as imagens antes de usar (comprima para web)
+✓ Teste em celular, tablet e computador
+✓ Verifique se todos os links do WhatsApp estão corretos
+✓ Mantenha os textos objetivos e profissionais
+✓ Atualize regularmente os depoimentos
+
+========================================
+COMO TESTAR LOCALMENTE:
+========================================
+
+1. Abra o arquivo "index.html" diretamente no navegador
+   (Duplo clique no arquivo)
+
+2. Teste todos os botões de WhatsApp e Instagram
+
+3. Preencha e teste o formulário de contato
+
+4. Teste o menu em tela pequena (redimensione a janela)
+
+========================================
+PROBLEMAS COMUNS:
+========================================
+
+❌ Imagens não aparecem
+   → Verifique se estão na pasta "images"
+   → Confira os nomes dos arquivos
+
+❌ WhatsApp não abre
+   → Verifique o formato do número (apenas números)
+   → Formato correto: 5511999999999
+
+❌ Instagram não abre
+   → Confirme o @ do perfil
+   → Use apenas o nome do usuário
+
+========================================
+PARA COLOCAR ONLINE:
+========================================
+
+OPÇÃO 1 - GitHub Pages (Grátis)
+1. Crie uma conta no GitHub
+2. Crie um repositório novo
+3. Faça upload dos arquivos
+4. Ative o GitHub Pages nas configurações
+
+OPÇÃO 2 - Netlify (Grátis)
+1. Acesse netlify.com
+2. Arraste a pasta do projeto
+3. Pronto! Seu site estará online
+
+OPÇÃO 3 - Hospedagem Tradicional
+1. Contrate uma hospedagem
+2. Use FTP para enviar os arquivos
+3. Configure o domínio
+
+========================================
+CHECKLIST FINAL:
+========================================
+
+□ Número do WhatsApp configurado
+□ Instagram configurado
+□ Imagens adicionadas
+□ Nome do escritório alterado
+□ Endereço atualizado
+□ E-mail atualizado
+□ Telefone atualizado
+□ Textos personalizados
+□ Áreas de atuação corretas
+□ Depoimentos reais
+□ Testado em celular
+□ Testado no computador
+□ Todos os links funcionando
+
+========================================
+
+Qualquer dúvida, consulte o arquivo README.md
+para instruções mais detalhadas.
+
+Boa sorte com sua landing page! 🎉
