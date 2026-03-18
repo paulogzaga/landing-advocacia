@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit -m \"$(cat <<''EOF''\nCommit inicial - Landing Page para Escritório de Advocacia\n\n- Estrutura HTML completa com todas as seções\n- CSS responsivo com design profissional\n- JavaScript para funcionalidades interativas\n- Documentação e instruções de uso\n- Paleta de cores: Preto e Dourado\nEOF\n)\")",
+      "Bash(git reset)",
+      "Bash(git add -A)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
