@@ -3,7 +3,14 @@
     "allow": [
       "Bash(git commit -m \"$(cat <<''EOF''\nCommit inicial - Landing Page para Escritório de Advocacia\n\n- Estrutura HTML completa com todas as seções\n- CSS responsivo com design profissional\n- JavaScript para funcionalidades interativas\n- Documentação e instruções de uso\n- Paleta de cores: Preto e Dourado\nEOF\n)\")",
       "Bash(git reset)",
-      "Bash(git add -A)"
+      "Bash(git add -A)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdicionar todos os arquivos da Landing Page\n\n- Página HTML completa e responsiva\n- Estilos CSS profissionais\n- JavaScript com funcionalidades interativas\n- Documentação e instruções\n- Estrutura de imagens\n\n🚀 Pronto para publicação\nEOF\n)\")",
+      "Bash(git remote add origin https://github.com/paulogzaga/landing-advocacia.git)",
+      "Bash(git branch -M main)",
+      "Bash(git push -u origin main)",
+      "Bash(start index.html)",
+      "Bash(if not exist images mkdir images)",
+      "Bash(git add .)"
     ],
     "deny": [],
     "ask": []
