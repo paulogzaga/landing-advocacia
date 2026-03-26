@@ -89,7 +89,7 @@ form.addEventListener('submit', (e) => {
     }
 
     // Criar mensagem para WhatsApp
-    const whatsappNumber = '5511999999999'; // Substitua pelo número correto
+    const whatsappNumber = '5521991676001'; // Substitua pelo número correto
     const whatsappMessage = `
 *Nova mensagem do site - Advocacia*
 
@@ -117,12 +117,10 @@ ${mensagem}
 // Função auxiliar para obter texto do assunto
 function getAssuntoText(value) {
     const assuntos = {
-        'civil': 'Direito Civil',
-        'trabalhista': 'Direito Trabalhista',
+        'patrimonial': 'Direito Patrimonial e Imobiliário',
+        'contratos': 'Contratos',
         'familia': 'Direito de Família',
-        'empresarial': 'Direito Empresarial',
-        'penal': 'Direito Penal',
-        'consumidor': 'Direito do Consumidor'
+        'outro': 'Outra área'
     };
     return assuntos[value] || value;
 }
@@ -177,24 +175,7 @@ window.addEventListener('scroll', () => {
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 });
 
-// Adicionar efeito de digitação no título (opcional)
-const heroTitle = document.querySelector('.hero-content h1');
-if (heroTitle) {
-    const text = heroTitle.textContent;
-    heroTitle.textContent = '';
-    let i = 0;
-
-    const typeWriter = () => {
-        if (i < text.length) {
-            heroTitle.textContent += text.charAt(i);
-            i++;
-            setTimeout(typeWriter, 50);
-        }
-    };
-
-    // Iniciar animação após um pequeno delay
-    setTimeout(typeWriter, 500);
-}
+// Efeito de digitação removido - título fixo
 
 // Contador de estatísticas (caso queira adicionar)
 function animateCounter(element, target, duration = 2000) {

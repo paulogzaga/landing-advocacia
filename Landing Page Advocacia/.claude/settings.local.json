@@ -10,7 +10,10 @@
       "Bash(git push -u origin main)",
       "Bash(start index.html)",
       "Bash(if not exist images mkdir images)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nLanding Page Advocacia LGBTQIA+ - Versão Completa\n\n✨ Novo Design Profissional\n- Header com degradê preto e dourado elegante\n- Logo em destaque (102px) com espaçamento otimizado\n- Menu responsivo com cores ajustadas\n\n🌈 Conteúdo LGBTQIA+\n- Seção hero com mensagem inclusiva e barra pride\n- Áreas de atuação especializadas (Patrimonial, Contratos, Família)\n- Seção sobre com foco em acolhimento e direitos\n- Diferenciais: atendimento sem discriminação, sigilo absoluto\n\n🎨 Features\n- Design responsivo completo (mobile, tablet, desktop)\n- Logos integradas (header, sobre, footer)\n- Animações suaves e efeitos hover\n- Formulário de contato funcional\n- Botão flutuante do WhatsApp\n- Links para redes sociais\n\n📱 Paleta de Cores\n- Preto (#000000) e Dourado (#c9a961)\n- Elementos pride com gradiente arco-íris\n\n🚀 Pronto para publicação\n\n🤖 Generated with Claude Code\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git restore index.html style.css)",
+      "Bash(git restore style.css)"
     ],
     "deny": [],
     "ask": []
